@@ -1,5 +1,5 @@
-import { parseArgs } from "@std/cli/parse-args";
-import { $boolean, $object, $string, $tuple } from "@showichiro/validators";
+import { parseArgs } from "jsr:@std/cli/parse-args";
+import { $boolean, $object, $string, $tuple } from "jsr:@showichiro/validators";
 
 /**
  * Asynchronously loads a JSON file specified by the input path.
