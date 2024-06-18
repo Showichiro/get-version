@@ -1,7 +1,7 @@
 # get-version
 
-`get-version` asynchronously retrieves the version number from a JSON file at
-the specified path.
+`get-version` is a command-line tool that asynchronously retrieves the version
+number from a JSON file at the specified path.
 
 ## Overview
 
@@ -11,7 +11,30 @@ information under the key name `version`.
 
 ## Usage
 
+### CLI Installation
+
+```sh
+deno install --allow-read --allow-net -n get-version -r -f https://raw.githubusercontent.com/Showichiro/get-version/main/index.ts
+```
+
+### Command Structure
+
+```console
+  Usage: get-version [path]
+
+  This command retrieves the version number from a JSON file located at the specified path.
+
+  Options:
+    -h, --help      Show this help message.
+```
+
 ### Example
+
+Via CLI
+
+```sh
+get-version ./package.json # 1.0.0
+```
 
 Via Source Code
 
