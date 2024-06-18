@@ -14,7 +14,7 @@ information under the key name `version`.
 ### CLI Installation
 
 ```sh
-deno install --allow-read --allow-net -n get-version -r -f https://raw.githubusercontent.com/Showichiro/get-version/main/index.ts
+deno install --allow-read --allow-net -n get-version -r -f https://raw.githubusercontent.com/Showichiro/get-version/0.1.3/index.ts
 ```
 
 ### Command Structure
