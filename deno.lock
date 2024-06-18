@@ -1,0 +1,38 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "jsr:@showichiro/validators@^0.1.0": "jsr:@showichiro/validators@0.1.0",
+      "jsr:@std/assert@^0.226.0": "jsr:@std/assert@0.226.0",
+      "jsr:@std/cli@^0.224.7": "jsr:@std/cli@0.224.7",
+      "jsr:@std/internal@^1.0.0": "jsr:@std/internal@1.0.0"
+    },
+    "jsr": {
+      "@showichiro/validators@0.1.0": {
+        "integrity": "6454b2b7fc9e18194b4a02351c2fc5b438d300c1431c2b67f592a2bbc827bf77"
+      },
+      "@std/assert@0.226.0": {
+        "integrity": "0dfb5f7c7723c18cec118e080fec76ce15b4c31154b15ad2bd74822603ef75b3",
+        "dependencies": [
+          "jsr:@std/internal@^1.0.0"
+        ]
+      },
+      "@std/cli@0.224.7": {
+        "integrity": "654ca6477518e5e3a0d3fabafb2789e92b8c0febf1a1d24ba4b567aba94b5977"
+      },
+      "@std/internal@1.0.0": {
+        "integrity": "ac6a6dfebf838582c4b4f61a6907374e27e05bedb6ce276e0f1608fe84e7cd9a"
+      }
+    }
+  },
+  "remote": {
+    "https://raw.githubusercontent.com/Showichiro/typescript-validators/main/deno.json": "d01a7b633357f531a9b6c7865659b1f38c6e621e6d3b076eea50f72d67d5c8a9"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@showichiro/validators@^0.1.0",
+      "jsr:@std/assert@^0.226.0",
+      "jsr:@std/cli@^0.224.7"
+    ]
+  }
+}
